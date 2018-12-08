@@ -62,7 +62,9 @@
             .m-b-md {
                 margin-bottom: 30px;
             }
+
         </style>
+         <link href="/css/app.css" rel="stylesheet" type="text/css">
     </head>
     <body>
         <div class="flex-center position-ref full-height">
@@ -82,14 +84,11 @@
                     Laravel
                 </div>
 
-                <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                <div id="example">
+                
                 </div>
             </div>
         </div>
+         <script src="{{ asset('js/app.js') }}" ></script>
     </body>
 </html>
